@@ -48,7 +48,7 @@ Partial Class aboutpopup
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(92, 17)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "version 1.2000"
+        Me.Label2.Text = "version 1.2111"
         '
         'Label3
         '

@@ -193,7 +193,7 @@ Partial Class mainui
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(97, 21)
         Me.Label5.TabIndex = 14
-        Me.Label5.Text = "build 1.2000"
+        Me.Label5.Text = "build 1.2111"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'mainui

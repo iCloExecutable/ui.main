@@ -148,7 +148,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to v1.2000.
+        '''  Looks up a localized string similar to v1.2111.
         '''</summary>
         Friend ReadOnly Property version() As String
             Get

@@ -47,7 +47,8 @@ Partial Class updater
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.Size = New System.Drawing.Size(615, 314)
         Me.WebBrowser1.TabIndex = 19
-        Me.WebBrowser1.Url = New System.Uri("https://api.iclostudios.ml/updsrv/mos/mui-changelog.html", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("file:///C:/Users/micraia/Desktop/os%20webpage/api-v1/update-changelog/updatechang" &
+        "elog.html", System.UriKind.Absolute)
         '
         'LinkLabel1
         '

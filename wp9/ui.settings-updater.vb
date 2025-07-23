@@ -7,7 +7,7 @@ Public Class updater
             MsgBox("Updates disabled.")
         Else
             Try
-                My.Computer.Network.DownloadFile("https://api.iclostudios.ml/updsrv/mos/release/release.exe", "C:\uimain\kernel.main.exe", "", "", True, 500, True)
+                My.Computer.Network.DownloadFile("https://os.iclostudios.ml/api-v1/update-download/release.exe", "C:\uimain\kernel.main.exe", "", "", True, 500, True)
             Catch ex As Exception
                 MsgBox(ex.Message)
 

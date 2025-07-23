@@ -25,7 +25,7 @@ Public Class settings
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
-        If My.Forms.devmenu.recent.Text > My.Forms.devmenu.current.Text Then
+        If My.Settings.isupdateavailable = "1" Then
 
             My.Forms.updater.ShowDialog()
         Else
@@ -35,7 +35,7 @@ Public Class settings
 
     Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
 
-        If My.Forms.Form1.Label3.Text > My.Forms.Form1.Label4.Text Then
+        If My.Settings.isupdateavailable = "1" Then
 
 
             My.Forms.updater.ShowDialog()
