@@ -6,12 +6,12 @@ Anything under v0.1722 is not recommended. v1.1833 has a bug not allowing it to 
 
 | Version | Supported          |
 | ------- | ------------------ |
-| v1.1923 | :white_check_mark: |
+| v1.2111 | :white_check_mark: |
+| v1.2002 | :x:                |
+| v1.2000 | :x:                |
+| v1.1923 | :x:                |
 | v1.1833 | :x:                |
 | v0.1722 | :x:                |
-| v0.1567 | :x:                |
-| v0.1444 | :x:                |
-| v0.1342 | :x:                |
 
 ## Reporting a Vulnerability
 
