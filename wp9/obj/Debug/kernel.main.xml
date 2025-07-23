@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+kernel.main
+</name>
+</assembly>
+<members>
+<member name="T:wp9.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.avatar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.browser">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.browsercompatwarn">
+<summary>
+  Looks up a localized string similar to 1.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.compatmode">
+<summary>
+  Looks up a localized string similar to 0.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.devwarn">
+<summary>
+  Looks up a localized string similar to 0.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.osicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.updater">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:wp9.My.Resources.Resources.version">
+<summary>
+  Looks up a localized string similar to v1.2000.
+</summary>
+</member>
+</members>
+</doc>
