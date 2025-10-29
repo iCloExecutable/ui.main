@@ -1,7 +1,7 @@
-# Welcome to ui.main, a new project replacing iClosOS
-## What is ui.main?
-### ui.main is the contiuation of iClosOS, a project by iCloExecutable
+# openmain
+## openmain
+### openmain
 
 ## Why?
 
-### Files lost - again.
+### open
