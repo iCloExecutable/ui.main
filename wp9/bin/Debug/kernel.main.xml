@@ -34,11 +34,6 @@ kernel.main
 </member>
 <member name="P:wp9.My.Resources.Resources.browsercompatwarn">
 <summary>
-  Looks up a localized string similar to 1.
-</summary>
-</member>
-<member name="P:wp9.My.Resources.Resources.compatmode">
-<summary>
   Looks up a localized string similar to 0.
 </summary>
 </member>
@@ -69,7 +64,7 @@ kernel.main
 </member>
 <member name="P:wp9.My.Resources.Resources.version">
 <summary>
-  Looks up a localized string similar to v1.2111.
+  Looks up a localized string similar to v1.2400.
 </summary>
 </member>
 </members>
