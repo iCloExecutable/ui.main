@@ -24,7 +24,6 @@ Partial Class aboutpopup
     Private Sub InitializeComponent()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.Label2 = New System.Windows.Forms.Label()
-		Me.Label3 = New System.Windows.Forms.Label()
 		Me.compatmode = New System.Windows.Forms.Label()
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,26 +45,16 @@ Partial Class aboutpopup
 		Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
 		Me.Label2.Location = New System.Drawing.Point(171, 111)
 		Me.Label2.Name = "Label2"
-		Me.Label2.Size = New System.Drawing.Size(92, 17)
+		Me.Label2.Size = New System.Drawing.Size(136, 17)
 		Me.Label2.TabIndex = 3
-		Me.Label2.Text = "version 1.2222"
-		'
-		'Label3
-		'
-		Me.Label3.AutoSize = True
-		Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-		Me.Label3.Location = New System.Drawing.Point(171, 128)
-		Me.Label3.Name = "Label3"
-		Me.Label3.Size = New System.Drawing.Size(110, 17)
-		Me.Label3.TabIndex = 4
-		Me.Label3.Text = "kernel version 2.3"
+		Me.Label2.Text = "version 1.2 build 2400"
 		'
 		'compatmode
 		'
 		Me.compatmode.AutoSize = True
 		Me.compatmode.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
 		Me.compatmode.ForeColor = System.Drawing.Color.Red
-		Me.compatmode.Location = New System.Drawing.Point(279, 128)
+		Me.compatmode.Location = New System.Drawing.Point(170, 128)
 		Me.compatmode.Name = "compatmode"
 		Me.compatmode.Size = New System.Drawing.Size(136, 17)
 		Me.compatmode.TabIndex = 5
@@ -88,7 +77,6 @@ Partial Class aboutpopup
 		Me.ClientSize = New System.Drawing.Size(490, 261)
 		Me.Controls.Add(Me.PictureBox1)
 		Me.Controls.Add(Me.compatmode)
-		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
 		Me.Name = "aboutpopup"
@@ -101,7 +89,6 @@ Partial Class aboutpopup
 
 	Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents compatmode As Label
-    Friend WithEvents PictureBox1 As PictureBox
+	Friend WithEvents compatmode As Label
+	Friend WithEvents PictureBox1 As PictureBox
 End Class

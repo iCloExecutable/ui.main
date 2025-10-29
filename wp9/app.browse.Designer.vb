@@ -40,7 +40,7 @@ Partial Class browser
 		'
 		'WebView21
 		'
-		Me.WebView21.AllowExternalDrop = False
+
 		Me.WebView21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
 			Or System.Windows.Forms.AnchorStyles.Left) _
 			Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -133,9 +133,9 @@ Partial Class browser
 		Me.Name = "browser"
 		Me.Text = "iCloBrowser"
 		CType(Me.WebView21, System.ComponentModel.ISupportInitialize).EndInit()
-		Me.MenuStrip1.ResumeLayout(False)
+		Me.MenuStrip1.ResumeLayout()
 		Me.MenuStrip1.PerformLayout()
-		Me.ResumeLayout(False)
+		Me.ResumeLayout()
 		Me.PerformLayout()
 
 	End Sub

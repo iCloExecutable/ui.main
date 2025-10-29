@@ -1,6 +1,11 @@
 ﻿Imports System.IO
 Imports System.Text
 Imports System.Net
+
+' ui.settings
+' written by micraia @ webmaster@iclostudios.ml, iCloAccount portions ported from iCloOS 3.0
+' 2025 iCloCorp. All rights reserved.
+
 Public Class settings
 
 
@@ -25,6 +30,7 @@ Public Class settings
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
         If My.Settings.isupdateavailable = "1" Then
 
             My.Forms.updater.ShowDialog()
@@ -41,7 +47,7 @@ Public Class settings
             My.Forms.updater.ShowDialog()
         Else
             MsgBox("No updates found")
-            End If
+        End If
 
     End Sub
 End Class

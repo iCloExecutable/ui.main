@@ -1,6 +1,13 @@
-﻿Public Class filemanager
+﻿
+' app.fileman
+' written by micraia @ webmaster@iclostudios.ml, ported from iCloOS 2.9d
+' 2025 iCloCorp. All rights reserved.
+
+Public Class filemanager
     Private Sub filemanager_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If My.Computer.FileSystem.FileExists("C:\uimain\config\fschk.ini") Then
+            ' fschk dosyasını editle
+
             FileOpen(1, "C:\uimain\config\fschk.ini", OpenMode.Output)
             PrintLine(1, "iCloFS - autocreated by ui.main - do not edit")
             PrintLine(1, "---------------------------------------------")
@@ -12,8 +19,10 @@
             PrintLine(1, "Anything manually edited will be removed")
             FileClose(1)
         Else
+            ' bastan yaratılısss
             My.Computer.FileSystem.CreateDirectory("C:\uimain\")
             My.Computer.FileSystem.CreateDirectory("C:\uimain\config")
+            My.Computer.FileSystem.CreateDirectory("C:\uimain\iCloBrowser")
             My.Computer.FileSystem.CreateDirectory("C:\uimain\fs")
             My.Computer.FileSystem.CreateDirectory("C:\uimain\fs\home")
             My.Computer.FileSystem.CreateDirectory("C:\uimain\fs\home\music")
@@ -25,7 +34,8 @@
             PrintLine(1, "My-Files = uimain\fs\home")
             PrintLine(1, "My-Downloads = uimain\fs\home\downloads")
             PrintLine(1, "My-Music = uimain\fs\home\music")
-            PrintLine(1, "fs.rev = 1.2000")
+            PrintLine(1, "Browser Profile = uimain\iCloBrowser")
+            PrintLine(1, "fs.rev = 1.2300")
             PrintLine(1, "---------------------------------------------")
             PrintLine(1, "Anything manually edited will be removed")
             FileClose(1)
@@ -68,5 +78,9 @@
         If ListBox1.SelectedItem = "E:\" Then
             WebBrowser1.Navigate("file://E:\")
         End If
+    End Sub
+
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+
     End Sub
 End Class

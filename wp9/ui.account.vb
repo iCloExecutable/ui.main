@@ -1,7 +1,12 @@
-﻿Public Class accountui
+﻿
+' ui.account
+' written by micraia @ webmaster@iclostudios.ml, ported from iCloOS 3.0
+' 2025 iCloCorp. All rights reserved.
+
+Public Class accountui
     Private Sub accountui_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label1.Text = My.Settings.usrnme
-        Label2.text = My.Settings.email
+        Label2.Text = My.Settings.email
 
     End Sub
 

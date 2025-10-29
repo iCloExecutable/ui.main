@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -81,20 +81,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 1.
+        '''  Looks up a localized string similar to 0.
         '''</summary>
         Friend ReadOnly Property browsercompatwarn() As String
             Get
                 Return ResourceManager.GetString("browsercompatwarn", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized string similar to 0.
-        '''</summary>
-        Friend ReadOnly Property compatmode() As String
-            Get
-                Return ResourceManager.GetString("compatmode", resourceCulture)
             End Get
         End Property
         
@@ -148,7 +139,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to v1.2111.
+        '''  Looks up a localized string similar to v1.2400.
         '''</summary>
         Friend ReadOnly Property version() As String
             Get

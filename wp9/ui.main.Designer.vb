@@ -189,11 +189,10 @@ Partial Class mainui
 		Me.Label5.BackColor = System.Drawing.SystemColors.ControlDark
 		Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!)
 		Me.Label5.ForeColor = System.Drawing.Color.Red
-		Me.Label5.Location = New System.Drawing.Point(576, 440)
+		Me.Label5.Location = New System.Drawing.Point(605, 440)
 		Me.Label5.Name = "Label5"
-		Me.Label5.Size = New System.Drawing.Size(97, 21)
+		Me.Label5.Size = New System.Drawing.Size(0, 21)
 		Me.Label5.TabIndex = 14
-		Me.Label5.Text = "build 1.2222"
 		Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
 		'
 		'mainui

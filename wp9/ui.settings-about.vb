@@ -1,6 +1,6 @@
 ﻿Public Class aboutpopup
     Private Sub aboutpopup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If My.Resources.compatmode = 1 Then
+        If My.Settings.premainappsupport = "1" Then
             compatmode.Text = "Compatibility mode enabled. Apps might be unsecure"
         Else
             compatmode.Text = ""
