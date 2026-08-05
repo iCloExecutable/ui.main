@@ -9,6 +9,11 @@ Imports System.Net
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+
+        ' build numara ayarı
+        My.Settings.buildnumber = My.Resources.build_number + "." + My.Resources.build_cpu + "." + My.Resources.build_channel + "." + My.Resources.build_sku
+        My.Settings.Save()
+
         ' saati baslatın
         My.Forms.mainui.Timer1.Start()
 

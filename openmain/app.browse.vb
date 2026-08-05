@@ -63,7 +63,7 @@ Public Class browser
 	Private Sub WebView21_CoreWebView2InitializationCompleted(sender As Object, e As Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs) Handles WebView21.CoreWebView2InitializationCompleted
 
 		' configure user agent for OpenBrowser 
-		WebView21.CoreWebView2.Settings.UserAgent = "TreCore/3.0 (openmain build 2300 Win64; x64) iCloWebKit/1.2 (KHTML, like Gecko) OpenBrowser/2.0.150.1"
+		WebView21.CoreWebView2.Settings.UserAgent = "TreCore/3.0 (" + My.Resources.public_sku + " build " + My.Resources.build_number + " Win64; " + My.Resources.build_cpu + ") iCloWebKit/1.2 (KHTML, like Gecko) OpenBrowser/2.0.150.1"
 
 		' indirme klasörünü ayarla
 		WebView21.CoreWebView2.Profile.DefaultDownloadFolderPath = "C:\uimain\fs\home\downloads"

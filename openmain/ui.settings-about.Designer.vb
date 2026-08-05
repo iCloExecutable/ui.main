@@ -26,6 +26,7 @@ Partial Class aboutpopup
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.compatmode = New System.Windows.Forms.Label()
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+		Me.Label4 = New System.Windows.Forms.Label()
 		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
@@ -54,7 +55,7 @@ Partial Class aboutpopup
 		Me.compatmode.AutoSize = True
 		Me.compatmode.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
 		Me.compatmode.ForeColor = System.Drawing.Color.Red
-		Me.compatmode.Location = New System.Drawing.Point(170, 128)
+		Me.compatmode.Location = New System.Drawing.Point(60, 176)
 		Me.compatmode.Name = "compatmode"
 		Me.compatmode.Size = New System.Drawing.Size(136, 17)
 		Me.compatmode.TabIndex = 5
@@ -70,11 +71,22 @@ Partial Class aboutpopup
 		Me.PictureBox1.TabIndex = 9
 		Me.PictureBox1.TabStop = False
 		'
+		'Label4
+		'
+		Me.Label4.AutoSize = True
+		Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+		Me.Label4.Location = New System.Drawing.Point(170, 128)
+		Me.Label4.Name = "Label4"
+		Me.Label4.Size = New System.Drawing.Size(69, 17)
+		Me.Label4.TabIndex = 11
+		Me.Label4.Text = "build 2300"
+		'
 		'aboutpopup
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(490, 261)
+		Me.Controls.Add(Me.Label4)
 		Me.Controls.Add(Me.PictureBox1)
 		Me.Controls.Add(Me.compatmode)
 		Me.Controls.Add(Me.Label2)
@@ -91,4 +103,5 @@ Partial Class aboutpopup
     Friend WithEvents Label2 As Label
 	Friend WithEvents compatmode As Label
 	Friend WithEvents PictureBox1 As PictureBox
+	Friend WithEvents Label4 As Label
 End Class

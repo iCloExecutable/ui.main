@@ -15,8 +15,10 @@ Public Class mainui
     End Sub
 
     Private Sub main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-		If My.Settings.buildtextenable = "1" Then
-            Label5.Text = My.Resources.version
+        If My.Settings.buildtextenable = "1" Then
+            Label5.Text = My.Resources.public_sku + " version " + My.Resources.version + " build " + My.Settings.buildnumber
+        Else
+            Label5.Text = ""
         End If
         If My.Resources.devwarn = "1" Then
             warning.Text = "Warning: This is a dev build. Proceed with caution."

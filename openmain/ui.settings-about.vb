@@ -5,6 +5,9 @@
         Else
             compatmode.Text = ""
         End If
+        Label2.Text = "build " + My.Resources.build_number
+
+        Label4.Text = "channel " + My.Resources.build_channel
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click

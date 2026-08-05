@@ -31,6 +31,7 @@ Partial Class devmenu
 		Me.CheckBox3 = New System.Windows.Forms.CheckBox()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.Label3 = New System.Windows.Forms.Label()
+		Me.Label2 = New System.Windows.Forms.Label()
 		Me.SuspendLayout()
 		'
 		'recent
@@ -45,7 +46,7 @@ Partial Class devmenu
 		'current
 		'
 		Me.current.AutoSize = True
-		Me.current.Location = New System.Drawing.Point(297, 53)
+		Me.current.Location = New System.Drawing.Point(294, 53)
 		Me.current.Name = "current"
 		Me.current.Size = New System.Drawing.Size(39, 13)
 		Me.current.TabIndex = 1
@@ -124,11 +125,22 @@ Partial Class devmenu
 		Me.Label3.TabIndex = 11
 		Me.Label3.Text = "kernel version 2.4lts" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
 		'
+		'Label2
+		'
+		Me.Label2.AutoSize = True
+		Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+		Me.Label2.Location = New System.Drawing.Point(21, 49)
+		Me.Label2.Name = "Label2"
+		Me.Label2.Size = New System.Drawing.Size(69, 17)
+		Me.Label2.TabIndex = 12
+		Me.Label2.Text = "build 2300"
+		'
 		'devmenu
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(345, 313)
+		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label1)
 		Me.Controls.Add(Me.CheckBox3)
@@ -154,4 +166,5 @@ Partial Class devmenu
 	Friend WithEvents CheckBox3 As CheckBox
 	Friend WithEvents Label1 As Label
 	Friend WithEvents Label3 As Label
+	Friend WithEvents Label2 As Label
 End Class
